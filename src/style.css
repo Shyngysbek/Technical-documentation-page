@@ -1,0 +1,64 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+    scroll-behavior: smooth;
+  }
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#main-doc {
+  margin-left: 20%;
+  width: calc(80%-60px);
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+header {
+  font-size: 1.7rem;
+}
+
+#navbar{
+  height: 100%;
+  width: 20%;
+  margin: 0;
+  position: fixed;
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden;
+  border-right: solid gray 2px;
+  background-color: white;
+}
+
+nav ul li {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 15px 0;
+}
+
+nav ul li:last-of-type {
+  border-bottom: none;
+}
+
+#nav-header {
+  border-bottom: 1px solid black;
+  padding-left: 2rem;
+  padding: 15px 0;
+  text-align: center;
+}
+
+a.nav-link{
+  color: black;
+  text-decoration: none;
+  padding-left: 2rem;
+  display: block;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
